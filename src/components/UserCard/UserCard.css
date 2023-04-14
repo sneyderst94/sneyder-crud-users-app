@@ -1,0 +1,91 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #c1bebe;
+  border-radius: 10px;
+  height: 250px;
+  width: 300px;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.card h2 {
+  margin-top: 10px;
+}
+
+.divider {
+  width: 90%;
+  margin: 0 auto;
+  height: 1px;
+  background-color: #c1bebe;
+  border: none;
+}
+
+.email__container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 10px 20px;
+  gap: 3px;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.email__container p {
+  color: #7c7979;
+}
+
+.birthday__container {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 3px;
+  margin: 10px 20px;
+  line-height: 15px;
+}
+.birthday__container p {
+  color: #7c7979;
+}
+
+.birthday__date {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-content: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.btn__edit {
+  background-color: #F6F6F6;
+  border: 1px solid #BDBDBD;
+  padding: 10px;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+.btn__edit:hover {
+  font-size: 1.1rem;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.btn__delete {
+  padding: 10px;
+  border: 1px solid #D85D5D;
+  background-color: #d43939;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.btn__delete:hover {
+  font-size: 1.1rem;
+  transition: 0.5s;
+  cursor: pointer;
+}

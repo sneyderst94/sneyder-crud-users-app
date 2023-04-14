@@ -1,0 +1,10 @@
+.user_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 90%;
+}
