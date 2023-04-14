@@ -5,6 +5,7 @@ import UserList from "./components/UserList/UserList";
 import Form from "./components/Form.jsx/Form";
 import Warning from "./components/Warning/Warning";
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const URL_BASE = "https://users-crud.academlo.tech/";
@@ -84,6 +85,7 @@ function App() {
           setUserToDelete={setUserToDelete}
         />
       )}
+      <Footer />
     </div>
   );
 }

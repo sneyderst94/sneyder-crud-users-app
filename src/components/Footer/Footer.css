@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background: #eae8e8;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 0px;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.social i {
+  font-size: 30px;
+  color: #000;
+}
