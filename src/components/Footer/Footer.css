@@ -6,8 +6,6 @@
   justify-content: center;
   text-align: center;
   padding: 10px 0px;
-  position: absolute;
-  bottom: 0;
 }
 .social {
   display: flex;
