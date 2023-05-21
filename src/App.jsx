@@ -8,7 +8,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
 function App() {
-  const URL_BASE = "https://users-crud-ell8.onrender.com/";
+  const URL_BASE = "https://users-crud.academlo.tech//";
   const [usersList, setUsersList] = useState([]);
   const [formActive, setFormActive] = useState(false);
   const [userSelected, setUserSelected] = useState(null);
